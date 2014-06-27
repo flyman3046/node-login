@@ -45,6 +45,8 @@ mongo
 //connecting to: test
 
 node app
+
+//open localhost:8080
 ```
 For testing purposes, I've provided a [database dump of all accounts here.](http://node-login.braitsch.io/print)  
 Please note this list and the entire database automatically resets every 24 hours.
