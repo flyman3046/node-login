@@ -34,6 +34,16 @@ This assumes you already have node.js & npm installed.
 git clone git://github.com/braitsch/node-login.git node-login
 cd node-login
 npm install -d
+
+
+//RUN MONGOD AND MONGO, create a folder ./data
+mongod --dbpath C:\Users\FZ\Documents\GitHub\node-login\data
+//open another command
+//COMMAND C:\Program Files\MongoDB 2.6 Standard\bin
+mongo
+//should see MongoDb Shell version: 
+//connecting to: test
+
 node app
 ```
 For testing purposes, I've provided a [database dump of all accounts here.](http://node-login.braitsch.io/print)  
